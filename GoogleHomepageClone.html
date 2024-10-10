@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Homepage Clone using only HTML</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a href="https://store.google.com/IN/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB&pli=1">Store</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/?ogbl">Gmail</a></li>
+                <li><a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+                <li><a href="https://about.google/products/">Google apps</a></li>
+                <li>Google Account</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <center>
+            <figure>
+                <img src="http://purepng.com/public/uploads/large/purepng.com-google-logo-2015brandlogobrand-logoiconssymbolslogosgoogle-6815229372333mqrr.png" height="150" width="350" alt="Google Logo">
+            </figure>
+
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" placeholder="Search Google">
+                <br>
+                <button type="submit">Google Search</button>
+                <button type="button" onclick="window.location.href='https://doodles.google/'">I'm Feeling Lucky</button>
+            </form>
+
+            <pre>Google offered in:
+                <a href="#">हिन्दी</a>
+                <a href="#">বাংলা</a>
+                <a href="#">తెలుగు</a>
+                <a href="#">मराठी</a>
+                <a href="#">தமிழ்</a>
+                <a href="#">ગુજરાતી</a>
+                <a href="#">ಕನ್ನಡ</a>
+                <a href="#">മലയാളം</a>
+                <a href="#">ਪੰਜਾਬੀ</a>
+            </pre>
+        </center>
+    </main>
+
+    <footer>
+        <h3>India</h3>
+        <nav>
+            <ul>
+                <li><a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/intl/en_in/business/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                <li><a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a></li>
+                <li>
+                    <label for="setting">Settings</label>
+                    <select name="setting" id="setting" onchange="location = this.value;">
+                        <option value="https://www.google.co.in/preferences?hl=en-IN&fg=1">Search Settings</option>
+                        <option value="https://www.google.co.in/advanced_search?hl=en-IN&fg=1">Advanced Search</option>
+                        <option value="https://myaccount.google.com/yourdata/search?utm_source=googlemenu&fg=1&pli=1">Your data in Search</option>
+                        <option value="https://myactivity.google.com/product/search?utm_source=google&hl=en-IN&fg=1">Search History</option>
+                        <option value="https://support.google.com/websearch/?visit_id=638641649027837366-906817084&hl=en-IN&rd=2#topic=3378866">Search Help</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
