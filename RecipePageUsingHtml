@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Recipe Page Using Only HTML</title>
+ 	</head>
+  	<body>
+
+		<header>
+			<h1>Simple Sponge Cake</h1>
+		</header>
+
+		<main>
+
+			<figure>
+				<img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Traditional-Sponge-Cake_EXPS_FT21_18657_F_0528_1.jpg?w=1200" width="400" height="250" alt="image_of_sponge_cake">
+				<figcaption>Spongy Cake</figcaption>
+			</figure>
+
+			<section>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>3 eggs</li>
+					<li>100g castor sugar</li>
+					<li>85g self-raising flour</li>
+				</ul>
+				<h3>Notes on ingredients</h3>
+				<dl>
+					<dt>Castor sugar</dt>
+					<dd>Finely granulated white sugar.</dd>
+					<dt>Self-raising flour</dt>
+					<dd>A pre-mixed combination of flour and leavening agents(usually salt and baking powder).</dd>
+				</dl>
+			</section>
+
+			<section>
+				<h2>Steps to Make Sponge Cake:</h2>
+				<ol>
+					<li><strong>Preheat the oven</strong> to 180°C (350°F). Grease and line a round cake tin (about 7 inches/18 cm).</li>
+					<li><strong>Beat the eggs and sugar</strong> together in a large bowl using an electric mixer. Whisk for 5-7 minutes until the mixture becomes pale, thick, and fluffy, and leaves a trail when the whisk is lifted.</li>
+					<li><strong>Sift the flour</strong> into the egg mixture gently. Fold it in using a spatula or large metal spoon. Be careful not to knock out the air from the batter.</li>
+					<li><strong>Pour the batter</strong> into the prepared cake tin, spreading it evenly.</li>
+					<li><strong>Bake</strong> for 20-25 minutes until the sponge is golden and springs back when lightly pressed.</li>
+					<li><strong>Cool</strong> in the tin for a few minutes, then turn out onto a wire rack to cool completely.</li>
+				</ol>
+			</section>
+
+			<p>Happy Cooking!!!!</p>
+
+		</main>
+
+		<footer>
+			<p><a href="https://in.search.yahoo.com/search;_ylt=AwrKFsuH.QhnbQIAuoi7HAx.;_ylc=X1MDMjExNDcyMzAwMwRfcgMyBGZyA21jYWZlZQRmcjIDc2ItdG9wBGdwcmlkAzlEOVRYZkpMUUtDVFd4dmhmdktGaEEEbl9yc2x0AzAEbl9zdWdnAzEwBG9yaWdpbgNpbi5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDMARxc3RybAM4BHF1ZXJ5A3JlY2VwaWVzBHRfc3RtcAMxNzI4NjQxNzY1?p=recepies&fr=mcafee&type=E211IN826G0&fr2=sb-top">Follow for more recipes</a></p>
+		</footer>
+
+	</body>
+</html>
